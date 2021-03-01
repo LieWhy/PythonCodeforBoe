@@ -8,7 +8,7 @@ from Function.SendBoeMail import SendBoeMail
 flag = SendBoeMail()
 
 message = MIMEText('Python 邮件发送测试...', 'plain', 'utf-8')  # 邮件内容
-message['From'] = Header('监控', 'utf-8')
+message['From'] = Header('XXX', 'utf-8')
 message['To'] = Header('Weir', 'utf-8')
 subject = 'Alert Warning'  # 邮件标题
 message['Subject'] = Header(subject, 'utf-8')

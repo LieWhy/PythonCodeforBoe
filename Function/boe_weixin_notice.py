@@ -84,4 +84,4 @@ class boe_weixin_notice(object):
 
 if __name__ == '__main__':
     content = '小王同学'
-    boe_weixin_notice().sendmessage("10286172", "monitoring", content)
+    boe_weixin_notice().sendmessage("10286172", "Hello", content)
