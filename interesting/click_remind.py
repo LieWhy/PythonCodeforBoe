@@ -1,5 +1,6 @@
-import time
+"""在Pycharm中可以运行打包生成exe后，运行异常"""
 
+import time
 from Function.boe_weixin_notice import boe_weixin_notice
 
 while True:
